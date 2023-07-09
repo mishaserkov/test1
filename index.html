@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misha Serkov</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="photo.jpeg" alt="Misha Serkov's photo" class="photo">
+            <h1>Misha Serkov</h1>
+            <nav>
+                <ul>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code-example">Code Example</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+              </nav>
+        </div>    
+    </header>
+    <main>
+        <div class="container">
+            <section class="section">
+                <h2 id="contacts">Contacts</h2>
+                <ul>
+                    <li>Location: Tel Aviv, Israel</li>
+                    <li>Phone: +972 33 321 76</li>
+                    <li>hello@callmemaybe.com</li>
+                </ul>
+            </section>
+            <section class="section">
+                <h2 id="about-me">About me</h2>
+                <p>I am a passionate and dedicated Frontend Developer with 2 years of experience in creating user-friendly and visually appealing web applications. With a strong foundation in HTML, CSS, and JavaScript, I specialize in crafting responsive and interactive websites that deliver an exceptional user experience.</p>
+            </section>
+            <section class="section">
+                <h2 id="skills">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </section> 
+          <section class="section">
+            <h2 id="code-example">Code Example</h2>
+                <code>
+                    function calculateFactorial(num) {
+                        if (num === 0 || num === 1) {
+                          return 1;
+                        } else {
+                          let factorial = 1;
+                          for (let i = 2; i <= num; i++) {
+                            factorial *= i;
+                          }
+                          return factorial;
+                        }
+                      }
+                      
+                      // Example usage
+                      const number = 5;
+                      const result = calculateFactorial(number);
+                      console.log(`The factorial of ${number} is ${result}`);
+                </code>
+                <p>In this code, the calculateFactorial function takes a number as input and calculates its factorial using a simple iterative approach. It first checks if the input number is either 0 or 1, in which case it returns 1 since the factorial of 0 and 1 is defined as 1. Otherwise, it initializes a variable factorial to 1 and iterates from 2 up to the input number, multiplying factorial by each number in the loop. Finally, it returns the calculated factorial. The code then demonstrates an example usage by calculating the factorial of the number 5 and logging the result to the console.</p>
+          </section>
+          <section class="section">
+            <h2>My projects</h2>
+            <ul>
+                <li><a href="https://mishaserkov.github.io/rsschool-cv/">CV</a></li>
+            </ul>
+          </section>
+          <section class="section">
+            <h2 id="education">Education</h2>
+                <ul>
+                    <li>HTML Academy</li>
+                    <li>RS School</li>
+                </ul>
+          </section>
+          <section class="section">
+            <h2 id="languages">Languages</h2>
+            <ul>
+                <li>Russian — native</li>
+                <li>English — B2</li>
+                <li>Spanish — A1</li>
+            </ul>
+          </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+                <a href="https://github.com/mishaserkov/">Misha Serkov, 2023</a>
+                <br>
+                <br>
+                <a href="https://rs.school/js/" target="_blank">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="RS School Logo" class="rs-logo">
+                    </a>
+        </div>
+    </footer>
+</body>
+</html>
+
